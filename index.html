@@ -160,10 +160,16 @@
 			max-width: 400px;
 			margin: 10px 0;
 		}
+		.flexcontainer {
+			display: flex;
+		}
+		.flexcontainer > div {
+			width:50%;
+		}
 	</style>
 </head>
 <body>
-
+<div class="flexcontainer">
 	<div class="container">
 
 		<!-- Explainer Section -->
@@ -184,6 +190,7 @@
 			<div class="link">Made with <a href="https://defold.com/" target="_blank">Defold</a></div>
 		</div>
 	</div>
+</div>
 	<!-- -->
 	<script id='engine-loader' type='text/javascript' src="dmloader.js"></script>
 
